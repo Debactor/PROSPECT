@@ -1,0 +1,57 @@
+# Prospect — Python dependencies
+# Tested with Python 3.9, CUDA 12.x, conda env at /data73/envs/conda_envs/prospect
+#
+# Install habitat-sim and habitat-lab separately (see README.md).
+
+# Core ML
+torch==2.4.1
+torchvision==0.19.1
+transformers==4.45.1
+accelerate==0.28.0
+deepspeed==0.14.4
+peft==0.5.0
+bitsandbytes==0.41.0
+safetensors==0.5.3
+tokenizers==0.20.3
+sentencepiece==0.1.99
+einops==0.6.1
+timm==1.0.15
+flash-attn==2.8.3
+
+# Data & vision
+numpy==1.26.1
+pillow==11.2.1
+opencv-python==4.11.0.86
+decord==0.6.0
+av==14.4.0
+datasets==2.16.1
+huggingface-hub==0.33.0
+hf_transfer==0.1.9
+
+# Habitat (install sim via conda; lab via pip -e)
+habitat-sim==0.2.4
+# habitat-lab and habitat-baselines: pip install -e from habitat-lab repo v0.2.4
+
+# Training utilities
+wandb==0.20.1
+hydra-core==1.3.2
+omegaconf==2.3.0
+PyYAML==6.0.2
+tqdm
+scipy
+matplotlib==3.9.4
+scikit-learn==1.2.2
+fastdtw==0.3.4
+
+# Misc
+open_clip_torch==2.32.0
+shortuuid==1.0.13
+ninja==1.11.1.4
+psutil==7.0.0
+requests==2.32.4
+filelock==3.18.0
+regex==2024.11.6
+packaging==25.0
+
+# CUT3R (clone into repo root, then pip install -r CUT3R/requirements.txt)
+# git clone https://github.com/CUT3R/CUT3R.git

@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Environments / IDE
+.env
+.venv/
+venv/
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Training / eval artifacts
+checkpoints/
+results/
+wandb/
+runs/
+*.log
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Data (download separately)
+data/
+CUT3R/
+
+# Caches
+.cache/
+hf_cache/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+*.npz
